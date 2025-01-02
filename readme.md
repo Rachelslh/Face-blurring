@@ -47,4 +47,4 @@ python main.py --model retina_face
 ```
 
 ## Results
-Results are stored ![here](https://drive.google.com/drive/folders/1c6ldhoE72zVqXa8KLjEhRUR1rYbqJ74Y?usp=sharing).
+Results are stored [here](https://drive.google.com/drive/folders/1c6ldhoE72zVqXa8KLjEhRUR1rYbqJ74Y?usp=sharing).

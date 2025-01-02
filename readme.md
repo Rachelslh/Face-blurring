@@ -2,7 +2,7 @@
 
 This repository contains a face blurring experiment for Evercam. The dataset used is composed of 360 equirectangular images. Also includes thumbnails.
 
-## Methods
+## Approaches
 This project leverages different deep learning models for face detection + blurring:
 
 ### [RetinaFace](https://github.com/serengil/retinaface?tab=readme-ov-file)

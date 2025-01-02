@@ -5,31 +5,26 @@ This repository contains a face blurring experiment for Evercam. The dataset use
 ## Methods
 This project leverages different deep learning models for face detection + blurring:
 
-### RetinaFace
+### [RetinaFace](https://github.com/serengil/retinaface?tab=readme-ov-file)
 
-[Link](https://github.com/serengil/retinaface?tab=readme-ov-file)
 - Best accuracy has been observed with this model.
 
-### MTCNN - Multitask Cascaded Convolutional Neural Networks
+### [MTCNN - Multitask Cascaded Convolutional Neural Networks](https://github.com/ipazc/mtcnn?tab=readme-ov-file)
 
-[Link](https://github.com/ipazc/mtcnn?tab=readme-ov-file)
 - Missed some samples where the face is oriented to left/right -> partially occluded. 
 - Low accuracy compared to RetineFace.
 
-### DeepFace
+### [DeepFace](https://github.com/serengil/deepface?tab=readme-ov-file)
 
-[Link](https://github.com/serengil/deepface?tab=readme-ov-file)
 - This has multiple nackends including MTCNN and RetinaFace that are explored above, it also has `fast-mtcnn` that is supposed to be a faster MTCNN version, its results are still low comparable to both MTCNN and RetinaFace.
 
-### YoloV11 + Face Recognition API
+### YoloV11 + [Face Recognition API](https://github.com/ageitgey/face_recognition?tab=readme-ov-file)
 
-Link to the [face recognition API](https://github.com/ageitgey/face_recognition?tab=readme-ov-file)
 - This is a 2 stage solution: Person detection and cropping + Face localization
 - This was the worse accuracy, Yolo provided excellent person detections, however the Face recognition API was not able to locate perfectly visible faces.
 
-### Blur360
+### [Blur360](https://github.com/thaytan/blur360?tab=readme-ov-file)
 
-[Link](https://github.com/thaytan/blur360?tab=readme-ov-file)
 - This is a C++ repository that does both face detection and blurring
 - Modified the code to handle a full directory of images rather than just one input image as its original design.
 - Built it with Meson and compiled it with Clang v15, enforced usage of C++ v17 to use the filesystem library.

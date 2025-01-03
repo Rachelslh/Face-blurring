@@ -8,20 +8,25 @@ This project leverages different deep learning models for face detection + blurr
 ### [RetinaFace](https://github.com/serengil/retinaface?tab=readme-ov-file)
 
 - Best accuracy has been observed with this model.
+- Downloads the weights of the model, this is a library and not an API
 
 ### [MTCNN - Multitask Cascaded Convolutional Neural Networks](https://github.com/ipazc/mtcnn?tab=readme-ov-file)
 
 - Missed some samples where the face is oriented to left/right -> partially occluded. 
 - Low accuracy compared to RetineFace.
+- Downloads the weights of the model, this is a library and not an API
+
 
 ### [DeepFace](https://github.com/serengil/deepface?tab=readme-ov-file)
 
 - This has multiple nackends including MTCNN and RetinaFace that are explored above, it also has `fast-mtcnn` that is supposed to be a faster MTCNN version, its results are still low comparable to both MTCNN and RetinaFace.
+- Downloads the weights of the models, this is a framework and not an API
 
 ### YoloV11 + [Face Recognition API](https://github.com/ageitgey/face_recognition?tab=readme-ov-file)
 
 - This is a 2 stage solution: Person detection and cropping + Face localization
 - This was the worse accuracy, Yolo provided excellent person detections, however the Face recognition API was not able to locate perfectly visible faces.
+- The Face recognition package is an API
 
 ### [Blur360](https://github.com/thaytan/blur360?tab=readme-ov-file)
 
@@ -30,6 +35,8 @@ This project leverages different deep learning models for face detection + blurr
 - Built it with Meson and compiled it with Clang v15, enforced usage of C++ v17 to use the filesystem library.
 - This yielded good results overall, slightly better than MTCNN and DeepFace but not as accurate as RetinaFace.
 - The modified code is stored in my local. Can share it if requested.
+- Contains the weights of the model, this is not an API
+
 
 ## Installation
 To get started, clone the repository and install the required dependencies:

@@ -1,4 +1,4 @@
-# Face Recognition
+# Face Blurring
 
 This repository contains a face blurring experiment for Evercam. The dataset used is composed of 360 equirectangular images. Also includes thumbnails.
 

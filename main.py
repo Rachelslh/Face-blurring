@@ -15,7 +15,7 @@ def main(model, preprocess=False):
         
         if preprocess:
         # Preprocessing, i think this gives a lot of distortions, in case this is enabled, need to adapt the code below to work on all the cubemap's frames
-            cube_images_paths = model.convert_to_cubemap(img_path)
+            cube_images_paths = convert_to_cubemap(img_path)
 
         if model == "yolo":
             # Yolo + Face localization https://github.com/ageitgey/face_recognition?tab=readme-ov-file

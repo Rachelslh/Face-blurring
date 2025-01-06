@@ -25,7 +25,7 @@ This project leverages different deep learning models for face detection + blurr
 ### YoloV11 + [Face Recognition API](https://github.com/ageitgey/face_recognition?tab=readme-ov-file)
 
 - This is a 2 stage solution: Person detection and cropping + Face localization
-- This was the worse accuracy, Yolo provided excellent person detections, however the Face recognition API was not able to locate perfectly visible faces.
+- Worst accuracy, Yolo provided excellent person detections, however the Face recognition API was not able to locate perfectly visible faces.
 - The Face recognition package is an API
 
 ### [Blur360](https://github.com/thaytan/blur360?tab=readme-ov-file)

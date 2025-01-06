@@ -13,13 +13,13 @@ This project leverages different deep learning models for face detection + blurr
 ### [MTCNN - Multitask Cascaded Convolutional Neural Networks](https://github.com/ipazc/mtcnn?tab=readme-ov-file)
 
 - Missed some samples where the face is oriented to left/right -> partially occluded. 
-- Low accuracy compared to RetineFace.
+- Low accuracy compared to RetinaFace.
 - Downloads the weights of the model, this is a library and not an API
 
 
 ### [DeepFace](https://github.com/serengil/deepface?tab=readme-ov-file)
 
-- This has multiple nackends including MTCNN and RetinaFace that are explored above, it also has `fast-mtcnn` that is supposed to be a faster MTCNN version, its results are still low comparable to both MTCNN and RetinaFace.
+- This has multiple backends including MTCNN and RetinaFace that are explored above, it also has `fast-mtcnn` that is supposed to be a faster MTCNN version, its results are still low comparable to both MTCNN and RetinaFace.
 - Downloads the weights of the models, this is a framework and not an API
 
 ### YoloV11 + [Face Recognition API](https://github.com/ageitgey/face_recognition?tab=readme-ov-file)

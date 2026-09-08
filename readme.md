@@ -1,6 +1,6 @@
 # Face Blurring
 
-This repository contains a face blurring experiment for Evercam. The dataset used is composed of 360 equirectangular images. Also includes thumbnails.
+This repository contains a face blurring experiment. The dataset used is composed of 360 equirectangular images. Also includes thumbnails.
 
 ## Approaches
 This project leverages different deep learning models for face detection + blurring:

@@ -42,7 +42,7 @@ This project leverages different deep learning models for face detection + blurr
 To get started, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/face_recognition.git
+git clone https://github.com/Rachelslh/face_recognition.git
 cd face_recognition
 pip install -r requirements.txt
 ```
